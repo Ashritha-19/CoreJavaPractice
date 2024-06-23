@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
 
         Employee employee = new Employee("Krish", "123");
-
+        employee.work();
         employee.takeBreak();
 
         Manager manager = new Manager("Krish","908",5);

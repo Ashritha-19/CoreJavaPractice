@@ -1,16 +1,25 @@
 package Example;
 
+
+
 public class Student {
 
-    public String name;
+      public String name;
 
-    public String phnNumber;
+      public int phnNumber;
+
+      public String   dob;
+
+    public String stdClass;
+
 
     @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
-                ", phnNumber='" + phnNumber + '\'' +
+                ", phnNumber=" + phnNumber +
+                ", dob='" + dob + '\'' +
+                ", stdClass='" + stdClass + '\'' +
                 '}';
     }
 }

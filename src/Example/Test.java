@@ -1,18 +1,14 @@
-package Example;
+package Example;public class Test {
 
-public class Test {
     public static void main(String[] args) {
 
-        Student s1 = new Student();
+        Student ashri = new Student();
 
-        // Classname reference = new Classname();
+        ashri.name = "abc";
+        ashri.phnNumber = 12344;
+        ashri.dob = "1/1/1";
+        ashri.stdClass = "2";
 
-
-        s1.name = "Krishna";
-        s1.phnNumber = "1234";
-
-        System.out.println(s1);
-
+        System.out.println(ashri.dob);
     }
-
 }
